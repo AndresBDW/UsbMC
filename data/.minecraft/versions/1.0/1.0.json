@@ -1,0 +1,171 @@
+{
+  "id": "1.0",
+  "family": "1.0",
+  "time": "2016-02-02T18:37:47+03:00",
+  "releaseTime": "2011-11-18T02:00:00+04:00",
+  "type": "release",
+  "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": 4,
+  "tlauncherVersion": 0,
+  "assets": "legacy",
+  "source": "official_version_repo",
+  "libraries": [
+    {
+      "name": "net.minecraft:launchwrapper:1.5"
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:4.5"
+    },
+    {
+      "name": "org.ow2.asm:asm-all:4.1"
+    },
+    {
+      "name": "net.java.jinput:jinput:2.0.5"
+    },
+    {
+      "name": "net.java.jutils:jutils:1.0.0"
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ],
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx",
+            "version": "^10\\.5\\.\\d$"
+          }
+        }
+      ],
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    }
+  ],
+  "downloads": {
+    "client": {
+      "url": "https://launcher.mojang.com/mc/game/1.0/client/b679fea27f2284836202e9365e13a82552092e5d/client.jar",
+      "sha1": "b679fea27f2284836202e9365e13a82552092e5d",
+      "size": 2362837
+    }
+  },
+  "assetIndex": {
+    "id": "legacy",
+    "known": true,
+    "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json",
+    "sha1": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+    "size": 134284
+  }
+}
