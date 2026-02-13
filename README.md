@@ -36,10 +36,11 @@ Not requiring Java or installation.
 ## Project Structure
 ```
 UsbMC/
-├── UsbMC.bat                # Launch Minecraft
-├── data\.minecraft          # Saves, resource packs, settings, etc.
-├── data\java                # Java runtime
-└── data\javaopengl          # Java runtime with OpenGL Mesa
+├── UsbMC.bat                      # Launch Minecraft
+├── data\.minecraft                # Saves, resource packs, settings, etc.
+├── data\runtime\bin               # Java runtime
+├── data\runtime\binopengl         # Java runtime with OpenGL Mesa
+└── data\runtime\lib               # Java libreries
 ```
 
 ## Notes
