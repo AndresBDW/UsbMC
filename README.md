@@ -28,6 +28,7 @@ Not requiring Java or installation.
 4. Run **UsbMC.bat**.  
 5. Enter a nickname pressing "**2**".  
 6. Launch Minecraft pressing "**1**".
+_(or use the [Releases menu](https://github.com/AndresBDW/UsbMC/releases) and download the latest)_
 
 ## Usage
 - To play again, just re-run **UsbMC.bat** and press "**1**".  
